@@ -1,0 +1,84 @@
+.header{
+    background: url(../../img/header/Hero.png);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    min-height: 962px;
+    padding-bottom: 223px;
+    
+}
+
+.header__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 56px;
+    margin-bottom: 176px;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 82px;
+}
+
+.nav-link{
+    color: #FFF;
+    font-size: 18px;
+    transition: all 0.2s ease-in;
+    &:hover, &:active, &:focus{
+        opacity: 0.5;
+    }
+    
+}
+
+.header__title{
+    font-size: 50px;
+    font-weight: 700;
+    max-width: 619px;
+    margin-bottom: 22px;
+    line-height: normal;
+}
+
+.header__info{
+    max-width: 546px;
+    line-height: 24px; /* 150% */
+    margin-bottom: 54px;
+}
+
+.form-info{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.form-field{
+    width: 297px;
+    background: url(../../img/header/Oval.svg) no-repeat left 7px;
+    background-size: 20px;
+    border-bottom: 2px solid #BFC0C5;
+    padding-left: 43px;
+    padding-bottom: 22px;
+    font-size: 18px;
+    font-weight: 700px;
+    color: #FFF;
+
+    &::placeholder{
+        color: #FFF;
+    }
+}
+
+.form-submit{
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+    padding: 15px 39px;
+    width: 171px;
+    background-color: #1B7DFF;
+    transition: all 0.2s ease-in;
+    &:hover, &:focus, &:active{
+        background-color: #5a9ef7;
+        box-shadow: 0 0 30px #9ac2f6;
+    }
+}
